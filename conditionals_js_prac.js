@@ -30,9 +30,35 @@ if (num1 < 10 && num2 < 10) {
 
 // # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
 
+var num = 88;
+if (num > 9000) {
+  console.log(1);
+} else {
+  console.log(-1)
+}
+
 // # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
 
+var number = 23;
+if (number < 10){
+  console.log(9)
+} else if(number < 20){
+  console.log(19)
+} else if (number < 30) {
+  console.log(29)
+} else {
+  console.log(-1)
+}
+
 // # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+
+var num1 = 37
+var num2 = 4
+if (num1 > 10 || num2 > 10){
+  console.log(100)
+} else {
+  console.log(-100)
+}
 
 // # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
